@@ -7,7 +7,7 @@ def nombre_valido(nombre):
     return devolver
 
 def crear_codename(nombre, nivel):
-     a =  nombre[0:3].upper() + str(nivel)
+     a =  nombre[0:3].upper() + "-Lv" + str(nivel)
     return a
 
 def vida_maxima(nivel):
